@@ -61,9 +61,9 @@
   },
   "scripts": {
     "dev": "nodemon server/server.js",
-    "start": "node start server/server.js",
-    "build": "node start server/server.js",
-    "heroku-postbuild" : "node start server/server.js",
+    "start": "node server/server.js",
+    "build": "node server/server.js",
+    "heroku-postbuild" : "node server/server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   }
